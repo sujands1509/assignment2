@@ -4,8 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+ 
 </head>
 <body>
-  
-</body>
+  <header class="bg-white noto-serif-font" >
+      <nav class=" max-w-[1140px] flex mx-auto justify-between inter-font text-[rgba(0,0,0,0.5)] text-base">
+        <img src="./assets/logo.png" alt="">
+          <div class="flex items-center just  text-[#252432]">
+            <ul class="flex items-center gap-8 hidden md:flex ">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <button class=" flex gap-4 ">
+             <p> <i class="bi bi-cart text-lg ml-3"></i>Cart ($56)</p>
+            </button>
+          </div>
+      </nav>
+      <section class="max-w-[1140px] flex mx-auto justify-between items-end my-30 ">
+        <div class="banner-left w-1/2">
+            <h2 class="text-6xl mb-5">ALWAYS <span class="text-[#E95A08]">FRESH
+              FLOWERS</span></h2>
+              <p class="inter-font text-base text-[rgba(0,0,0,0.5) ]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <div class="banner-right w-1/2  ">
+          <img src="./assets/hero-flower.png" alt="">
+        </div> 
+      </section>
+  </header>
+  </body>
 </html>
