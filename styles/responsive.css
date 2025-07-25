@@ -20,3 +20,90 @@
   font-weight: 400;
   font-style: normal;
 }
+.offer-container {
+      display: grid;
+      grid-template-areas:
+        "bloom zabo"
+        "ana   zabo";
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+.bloom {
+      grid-area: bloom;
+      background-image: url('../assets/deal-bloom.png');
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .ana {
+      grid-area: ana;
+      background-image: url('../assets/deal-ana.png');
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .zabo {
+      grid-area: zabo;
+      height: 320px;
+      background-image: url('../assets/deal-zabo.png');
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+    }
+  @media (max-width: 768px) {
+      .offer-container {
+        grid-template-areas:
+          "bloom"
+          "ana"
+          "zabo";
+        grid-template-columns: 1fr;
+      }
+
+      .zabo,.bloom,.ana {
+        height: 300px;
+      }
+    }
+  
+.join-form-container{
+      background-image: url(../assets/news-letter-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 500px;
+      padding-top: 30px;
+    
+    }
+.form-container input{
+  background-color: #ffffff;
+  padding: 10px 50px;
+  border: none;
+  
+}
+.form-container button{
+  background-color:#E95A08;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+}
+ 
+
+   
