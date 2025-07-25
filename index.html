@@ -12,30 +12,91 @@
  
 </head>
 <body>
-  <header class="bg-white noto-serif-font" >
-      <nav class=" max-w-[1140px] flex mx-auto justify-between inter-font text-[rgba(0,0,0,0.5)] text-base">
+  <header class="bg-white" >
+      <nav class=" max-w-[1140px] flex mx-auto justify-between inter-font text-[rgba(0,0,0,0.5)] text-base px-4 sm:px-6 lg:px-8 ">
         <img src="./assets/logo.png" alt="">
-          <div class="flex items-center just  text-[#252432]">
+          <div class="flex items-center just text-[rgba(0,0,0,0.5)]">
             <ul class="flex items-center gap-8 hidden md:flex ">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a class="hover:text-[#252432]" href="#">Home</a></li>
+              <li><a class="hover:text-[#252432]" href="#">Shop</a></li>
+              <li><a class="hover:text-[#252432]" href="#">About Us</a></li>
             </ul>
             <button class=" flex gap-4 ">
-             <p> <i class="bi bi-cart text-lg ml-3"></i>Cart ($56)</p>
+             <p class="hover:text-[#252432]"> <i class="bi bi-cart text-lg ml-3"></i>Cart ($56)</p>
             </button>
           </div>
       </nav>
-      <section class="max-w-[1140px] flex mx-auto justify-between items-end my-30 ">
-        <div class="banner-left w-1/2">
-            <h2 class="text-6xl mb-5">ALWAYS <span class="text-[#E95A08]">FRESH
+      <section class="flex flex-col-reverse md:flex-row items-center md:items-end max-w-[1140px] mx-auto px-4 py-8 gap-6 mb-10">
+        <div class="w-full md:w-1/2 text-center md:text-left">
+            <h2 class="text-6xl mb-5 noto-serif-font">ALWAYS <span class="text-[#E95A08]">FRESH
               FLOWERS</span></h2>
-              <p class="inter-font text-base text-[rgba(0,0,0,0.5) ]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+              <p class="inter-font text-base text-[rgba(0,0,0,0.5)]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
-        <div class="banner-right w-1/2  ">
-          <img src="./assets/hero-flower.png" alt="">
+        <div class="w-full md:w-1/2">
+          <img src="./assets/hero-flower.png" alt="" class="w-full h-auto object-contain">
         </div> 
       </section>
   </header>
+
+  <main>
+    <div class="plants max-w-[1140px] mx-auto mb-10 px-4 sm:px-6 lg:px-8 inter-font text-[#111111]">
+        <div class="my-30">
+           <h2 class="text-center text-6xl noto-serif-font" ><span class="text-[#E95A08]">Our </span> Plants</h2>
+       <p class="text-center  text-[rgba(0,0,0,0.5)] text-base max-w-150 mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
+          <div class="grid grid-cols-2  lg:grid-cols-4 md:grid-cols-3 gap-16">
+                  <div class="cart1 mx-auto w-full">
+                  <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                  <p class="text-center ">Lily Blossom</p>
+                  <p class="price text-center font-bold">20 USD</p>
+                   <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+                </div>
+              <div class="cart1 mx-auto  w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto  w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto  w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto  w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                 <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+              <div class="cart1 mx-auto w-full">
+                <img src="./assets/sample-flower-image.png" alt="" class="w-full h-auto object-contain">
+                <p class="text-center">Lily Blossom</p>
+                <p class="price text-center font-bold">20 USD</p>
+                <button class="mx-auto  bg-[#E95A08] w-full text-white px-4 py-2 rounded"><a href="">ADD TO CART</a></button>
+              </div>
+          </div>
+       
+    </div>
+  </main>
+
   </body>
 </html>
