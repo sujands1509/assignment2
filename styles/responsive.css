@@ -50,13 +50,12 @@
 
     .zabo {
       grid-area: zabo;
-      height: 320px;
+      height: 423px;
       background-image: url('../assets/deal-zabo.png');
       background-repeat: no-repeat;
       border-radius: 10px;
       background-size: cover;
       background-position: center;
-      overflow: hidden;
     }
   @media (max-width: 768px) {
       .offer-container {
